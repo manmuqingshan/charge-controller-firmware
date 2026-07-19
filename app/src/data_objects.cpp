@@ -829,7 +829,7 @@ THINGSET_ADD_ITEM_BOOL(ID_LOAD, 0x8B7, "sEnableDefault", &load.enable,
         "de": "Abschaltspannung Lastausgang"
     }
 }*/
-THINGSET_ADD_ITEM_FLOAT(ID_LOAD, 0xB8, "sDisconnectVoltage_V",
+THINGSET_ADD_ITEM_FLOAT(ID_LOAD, 0x8B8, "sDisconnectVoltage_V",
                         &bat_conf_user.load_disconnect_voltage, 2, THINGSET_ANY_R | THINGSET_ANY_W,
                         TS_SUBSET_NVM);
 
